@@ -1,0 +1,111 @@
+/*  --------------------------------------------------------------------------
+  General
+  --------------------------------------------------------------------------*/
+html,
+body {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* smoothing */
+  -webkit-text-size-adjust: none;
+  -webkit-text-stroke: 1px transparent;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*  --------------------------------------------------------------------------
+  Accessibility
+  --------------------------------------------------------------------------*/
+:focus {
+  outline: 0;
+}
+/*  --------------------------------------------------------------------------
+  Re-usable general
+  --------------------------------------------------------------------------*/
+// http://getbootstrap.com/css/#helper-classes-center
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row.padding {
+  padding: 10px;
+}
+.pull-right {
+  text-align: right;
+}
+.container.content {
+  padding: 15px;
+}
+.cursor-pointer,
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+.well {
+  filter: none;
+}
+/*  --------------------------------------------------------------------------
+  Font weighting
+  --------------------------------------------------------------------------*/
+.strong {
+}
+.regular {
+}
+.normal {
+  font-weight: normal;
+  text-transform: none;
+}
+.light {
+}
+.strike-through {
+  text-decoration: line-through;
+}
+/*  --------------------------------------------------------------------------
+  Font convenience
+  --------------------------------------------------------------------------*/
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/*  --------------------------------------------------------------------------
+  Block
+  --------------------------------------------------------------------------*/
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.relative {
+  position: relative;
+}
+/*  --------------------------------------------------------------------------
+  Form
+  --------------------------------------------------------------------------*/
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*  --------------------------------------------------------------------------
+  Position
+  --------------------------------------------------------------------------*/
+.position-fixed {
+  position: fixed;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-relative {
+  position: relative;
+}
+
+html.production .debug {
+  display: none;
+}

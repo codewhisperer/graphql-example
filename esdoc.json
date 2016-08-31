@@ -1,0 +1,8 @@
+{
+  "source": "./src",
+  "destination": "./doc",
+  "access": ["public", "protected", "private"],
+  "plugins": [
+    {"name": "esdoc-es7-plugin"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./app.js",
+  "contributors": [
+    {
+      "name": "Aaron Lote",
+      "email": "aaron.lote@bt.com",
+      "web": "http://www.aaronlote.com"
+    },
+    {
+      "name": "Florin-Alexandru Danciu",
+      "email": "florin-alexandru.danciu@bt.com",
+      "web": "https://github.com/danciu"
+    },
+    {
+      "name": "Renato Ferreira",
+      "email": "renato.ferreira@bt.com",
+      "web": "https://www.github.com/rntsferreira"
+    },
+    {
+      "name": "Inigo Sanz Garcia",
+      "email": "inigo.sanzgarcia@bt.com",
+      "web": "https://www.github.com/kox"
+    }
+  ]
+}
