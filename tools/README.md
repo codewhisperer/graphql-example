@@ -28,7 +28,6 @@ Flag        | Description
 ----------- | --------------------------------------------------
 `--release` | Minimizes and optimizes the compiled output
 `--verbose` | Prints detailed information to the console
-`--yorklab` | Same as release, but with YorkLab constants
 
 For example:
 
